@@ -84,7 +84,9 @@ nav h4 {
 
 .card-title {
   text-align: center;
-  margin-right: 30px;
+  margin: 0 auto;
+  /* margin-right: 30px; */
+  font-weight: bold;
 }
 
 .product-div .flex {
@@ -94,10 +96,11 @@ nav h4 {
 .card-btn {
   background: rgba(109, 40, 217, 0.1);
   border: none;
-  padding: 5px 10px;
+  padding: 5px 15px;
   font-weight: bold;
   color: var(--primaryColor);
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 13px;
   margin: 0 auto;
+  text-align: center;
 }
