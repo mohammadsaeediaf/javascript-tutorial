@@ -15,3 +15,60 @@
   --mainRed: #db2777;
   --bodyColor: #f6f6f6;
 }
+
+body {
+  color: var(--mainWhite);
+  font-family: sans-serif;
+  background: var(--bodyColor);
+  position: relative;
+}
+
+.navbar {
+  background-color: var(--seccondaryColor);
+  width: 100%;
+  padding: 10px;
+  color: var(--primaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-title {
+  color: var(--mainBlack);
+  font-weight: 900;
+}
+
+.navbar-items {
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-items i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.shop-icon {
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.navbar-items .counter {
+  font-size: 9px;
+  background: var(--mainRed);
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--mainWhite);
+}
