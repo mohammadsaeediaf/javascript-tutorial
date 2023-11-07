@@ -73,9 +73,3 @@ body {
   color: var(--mainWhite);
 }
 
-.products {
-  width: 100%;
-  text-align: center;
-  border: 1px solid;
-  background: #ccc;
-}
