@@ -143,9 +143,11 @@ body {
 }
 
 .product-caption {
-  width: 75%;
+  width: 90%;
   text-align: center;
   margin: 0 auto;
+  color: #555;
+  margin-bottom: 10px;
 }
 
 .single-product button {
