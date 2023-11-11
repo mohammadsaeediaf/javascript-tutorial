@@ -23,6 +23,10 @@ body {
   position: relative;
 }
 
+nav {
+  position: relative;
+}
+
 .navbar {
   background-color: var(--seccondaryColor);
   width: 100%;
