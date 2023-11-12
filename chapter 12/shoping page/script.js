@@ -5,3 +5,6 @@ shopIcon.addEventListener("click", () => {
   overlay.classList.add("overlay-add");
 });
 
+closeModal.addEventListener("click", () => {
+  overlay.classList.remove("overlay-add");
+});
