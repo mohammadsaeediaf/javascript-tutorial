@@ -205,8 +205,57 @@ nav {
 .modal-product {
   display: flex;
   padding: 0 20px;
+  color: var(--mainBlack);
+  justify-content: space-around;
+}
+.modal-product .product-img {
+  width: 180px;
 }
 
 .modal-product .product-img img {
   border-radius: 5px;
+  width: 100%;
+}
+
+.modal-product-caption {
+  /* margin: 0 10px; */
+  color: var(--mainBlack);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 20px;
+}
+
+.modal-product-caption h4 {
+  font-size: 18px;
+}
+
+.product-counter {
+  /* background-color: red; */
+  color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  gap: 15px;
+  font-size: 17px;
+}
+
+.fa-minus {
+  cursor: pointer;
+  color: red;
+}
+
+.fa-plus {
+  cursor: pointer;
+  color: green;
+}
+
+.delete-icon {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  /* color: rgb(221, 72, 72); */
 }
