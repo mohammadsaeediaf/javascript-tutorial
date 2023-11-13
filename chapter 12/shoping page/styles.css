@@ -201,3 +201,14 @@ nav {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
+
+.modal-product {
+  display: flex;
+  padding: 0 20px;
+  color: var(--mainBlack);
+  justify-content: space-around;
+}
+.modal-product .product-img {
+  width: 180px;
+}
+
