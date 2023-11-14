@@ -14,4 +14,9 @@ closeModal.addEventListener("click", () => {
   overlay.classList.remove("overlay-add");
 });
 
+let counter = 1;
+chevronUp.addEventListener("click", () => {
+  counter++;
+  if (counter >= 1) productCounter.textContent = counter;
+});
 
