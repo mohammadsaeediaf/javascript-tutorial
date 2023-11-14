@@ -294,4 +294,11 @@ nav {
   color: #111;
 }
 
-
+.modal-footer .confirm:hover {
+  background: rgba(107, 38, 217, 0.2);
+}
+.modal-footer .confirm {
+  /* background: rgba(107, 38, 217, 0.2); */
+  color: var(--primaryColor);
+  font-weight: 600;
+}
