@@ -20,3 +20,11 @@ chevronUp.addEventListener("click", () => {
   if (counter >= 1) productCounter.textContent = counter;
 });
 
+chevronDown.addEventListener("click", () => {
+  counter--;
+  if (counter >= 1) productCounter.textContent = counter;
+});
+
+deleteItem.addEventListener("click", () => {
+  document.querySelector(".modal-product").style = "display: none";
+});
