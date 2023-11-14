@@ -275,3 +275,23 @@ nav {
   /* color: rgb(221, 72, 72); */
 }
 
+.modal-footer {
+  color: #111;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.modal-footer button {
+  padding: 5px 15px;
+  border: 1px solid;
+  outline: none;
+  background-color: transparent;
+  /* background: rgba(107, 38, 217, 0.2); */
+  border-radius: 5px;
+  color: #111;
+}
+
+
