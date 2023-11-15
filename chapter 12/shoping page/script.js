@@ -4,7 +4,8 @@ let shopIcon = document.querySelector(".shop-icon"),
   chevronUp = document.querySelector(".fa-chevron-up"),
   chevronDown = document.querySelector(".fa-chevron-down"),
   productCounter = document.querySelector(".counter"),
-  deleteItem = document.querySelector(".fa-trash");
+  deleteItem = document.querySelector(".fa-trash"),
+  deleteItemSection = document.querySelector(".clear");
 
 shopIcon.addEventListener("click", () => {
   overlay.classList.add("overlay-add");
@@ -26,5 +27,9 @@ chevronDown.addEventListener("click", () => {
 });
 
 deleteItem.addEventListener("click", () => {
+  document.querySelector(".modal-product").style = "display: none";
+});
+
+deleteItemSection.addEventListener("click", () => {
   document.querySelector(".modal-product").style = "display: none";
 });
