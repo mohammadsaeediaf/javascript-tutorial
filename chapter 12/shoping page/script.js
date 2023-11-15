@@ -29,3 +29,7 @@ chevronDown.addEventListener("click", () => {
 deleteItem.addEventListener("click", () => {
   document.querySelector(".modal-product").style = "display: none";
 });
+
+deleteItemSection.addEventListener("click", () => {
+  document.querySelector(".modal-product").style = "display: none";
+});
