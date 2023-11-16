@@ -5,13 +5,18 @@ let shopIcon = document.querySelector(".shop-icon"),
   chevronDown = document.querySelector(".fa-chevron-down"),
   productCounter = document.querySelector(".counter"),
   deleteItem = document.querySelector(".fa-trash"),
-  deleteItemSection = document.querySelector(".clear");
+  deleteItemSection = document.querySelector(".clear"),
+  confirmbtn = document.querySelector(".confirm");
 
 shopIcon.addEventListener("click", () => {
   overlay.classList.add("overlay-add");
 });
 
 closeModal.addEventListener("click", () => {
+  overlay.classList.remove("overlay-add");
+});
+
+confirmbtn.addEventListener("click", () => {
   overlay.classList.remove("overlay-add");
 });
 
