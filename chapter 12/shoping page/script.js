@@ -6,10 +6,12 @@ let shopIcon = document.querySelector(".shop-icon"),
   productCounter = document.querySelector(".counter"),
   deleteItem = document.querySelector(".fa-trash"),
   deleteItemSection = document.querySelector(".clear"),
-  confirmbtn = document.querySelector(".confirm");
+  confirmbtn = document.querySelector(".confirm"),
+  navModal = document.querySelector(".nav-modal");
 
 shopIcon.addEventListener("click", () => {
   overlay.classList.add("overlay-add");
+  navModal.style.transform = "translateY(100vh)";
 });
 
 closeModal.addEventListener("click", () => {
