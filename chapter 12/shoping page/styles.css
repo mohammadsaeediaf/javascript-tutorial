@@ -191,6 +191,7 @@ nav {
   border-radius: 10px;
   margin-top: 4rem;
   padding-bottom: 50px;
+  transform: translateY(-100vh);
 }
 
 .close-modal {
@@ -218,6 +219,7 @@ nav {
   padding: 0 20px;
   color: var(--mainBlack);
   justify-content: space-around;
+
   /* align-items: center; */
 }
 .modal-product .product-img {
