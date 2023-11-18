@@ -11,7 +11,7 @@ let shopIcon = document.querySelector(".shop-icon"),
 
 shopIcon.addEventListener("click", () => {
   overlay.classList.add("overlay-add");
-  navModal.style.transform = "translateY(100vh)";
+  navModal.style.transform = "translateY(1vh)";
 });
 
 closeModal.addEventListener("click", () => {
