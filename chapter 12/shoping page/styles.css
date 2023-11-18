@@ -153,6 +153,10 @@ nav {
   margin-bottom: 10px;
 }
 
+.single-product:hover img {
+  opacity: 0.7;
+}
+
 .single-product button {
   outline: none;
   background: rgb(107, 38, 217, 0.1);
@@ -163,6 +167,11 @@ nav {
   padding: 7px 13px;
   font-size: 14px;
   margin: 10px 0;
+}
+
+.single-product button:hover {
+  /* background: rgb(107, 38, 217, 1); */
+  color: rgb(107, 38, 217, 0.7);
 }
 
 .overlay {
@@ -191,6 +200,7 @@ nav {
   border-radius: 10px;
   margin-top: 4rem;
   padding-bottom: 50px;
+  z-index: 100;
   transform: translateY(-100vh);
 }
 
